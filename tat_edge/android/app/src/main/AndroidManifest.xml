@@ -39,4 +39,14 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="xxxxxx"
+        android:icon="@mipmap/launcher_icon">
+        <activity>
+                ...
+                ...
+        </activity>
+</application>
 </manifest>

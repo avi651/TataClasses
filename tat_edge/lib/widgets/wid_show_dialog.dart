@@ -78,11 +78,11 @@ class _WidShowDialogDialogState extends State<WidShowDialog>
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    WidText(
+                    const WidText(
                       title: 'CREATE NOTE',
                       widColor: Colors.blue,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 8.0,
                     ),
                     TextField(
@@ -105,7 +105,7 @@ class _WidShowDialogDialogState extends State<WidShowDialog>
                         enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.red, width: 2.0),
                         ),
-                        hintText: 'Insert Text here..',
+                        hintText: 'Insert Text here.',
                       ),
                     ),
                     const SizedBox(
